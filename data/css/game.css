@@ -1,0 +1,267 @@
+:root {
+    --background-color: #FFFFFF;
+    --text-color: #242527;
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Baloo 2', cursive;
+}
+body {
+    color: var(--text-color);
+    font-family: 'Baloo 2', cursive;
+    min-height: 100vh;
+    margin: 0;
+    padding: 1rem 0;
+    background-image: url(../images/home_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-image: url(../images/a705f4522db3cd3e83b1f9068cb2da33.jpg); */
+/* background-image: linear-gradient(aliceblue, rgb(240, 255, 241)); */
+}
+ .chidiya-udd-logo {
+  margin: unset !important;
+  width: 520px !important;
+  padding: 0.4rem !important;
+}
+ .chidiya-udd-logo .box-1 {
+  width: 30px !important;
+}
+.app-main-container {
+    max-width: 1160px;
+    width: 95%;
+    padding: 2rem 1rem;
+    margin: auto;
+    /* background-color: var(--background-color); */
+
+        /* paper css */
+        transition: all 235ms ease 0s;
+        /* box-shadow: 15px 28px 25px -18px rgba(0, 0, 0, 0.2); */
+        /* border-color: #41403ea1; */
+        /* border-color: var(--muted-light); */
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        /* border-style: solid; */
+        /* border-width: 2px; */
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        will-change: transform;
+        word-wrap: break-word;
+        /* border-color: #d9d9d9; */
+}
+.alert-timer {
+  margin-top: 0.2rem;
+  background-color: var(--background-color);
+  border-color: #41403e;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-style: solid;
+  border-width: 2px;
+  margin-bottom: 0.2rem;
+  padding: 15px;
+  width: 100%;
+}
+
+.app-logo {
+    margin: auto;
+    text-align: center;
+    font-size: 32px;
+}
+
+
+/* CSS */
+.button-55 {
+    width: 100%;
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-color: #333;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-bottom: 0.5rem;
+  font-size: 26px;
+  font-weight: 600;
+  color: white;
+  background-color: cyan;
+  text-shadow: 2px 2px #0004;
+}
+
+.game-cta-button {
+  width: 100%;
+align-self: center;
+background-color: #fff;
+background-image: none;
+background-position: 0 90%;
+background-repeat: repeat no-repeat;
+background-size: 4px 3px;
+border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+border-style: solid;
+border-color: #333;
+border-width: 2px;
+box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+box-sizing: border-box;
+color: #41403e;
+cursor: pointer;
+display: inline-block;
+font-size: 1rem;
+line-height: 23px;
+outline: none;
+padding: .75rem;
+text-decoration: none;
+transition: all 235ms ease-in-out;
+border-bottom-left-radius: 15px 255px;
+border-bottom-right-radius: 225px 15px;
+border-top-left-radius: 255px 15px;
+border-top-right-radius: 15px 225px;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+font-size: 26px;
+font-weight: 600;
+color: white;
+background-color: orangered;
+text-shadow: 2px 2px #0004;
+}
+
+.app-main-container .game-container {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr 1.5fr;
+  gap: 0.4rem;
+}
+.app-main-container .game-container .gcx {
+  
+}
+.app-main-container .game-container .gcx-2,
+.app-main-container .game-container .gcx-3 {
+  padding: 0.5rem;
+    background-color: var(--background-color);
+
+        /* paper css */
+        transition: all 235ms ease 0s;
+        /* box-shadow: 15px 28px 25px -18px rgba(0, 0, 0, 0.2); */
+        border-color: #41403ea1;
+        /* border-color: var(--muted-light); */
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        border-style: solid;
+        border-width: 2px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        will-change: transform;
+        word-wrap: break-word;
+        border-color: #d9d9d9;
+}
+
+.button-55.secondary {
+    background-color: gray;
+  font-size: 22px;
+
+}
+
+.button-55:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.button-55:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+
+
+.game-cta-button:hover {
+box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+transform: translate3d(0, 2px, 0);
+}
+
+.game-cta-button:focus {
+box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+.game-cta-button.udd {
+  background-color: #4cd261;
+  border-color: green;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.game-cta-button.chal {
+  background-color: #f6372f;
+  border-color: maroon;
+  padding-top: 20px;
+  padding-bottom: 20px
+}
+
+.game-cta-button.naach {
+  background-color: cornflowerblue;
+  border-color: darkblue;
+}
+
+.cta-btn-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 1rem;
+}
+
+.cta-btn-grid button:nth-child(3) {
+  grid-column: 1 / span 2;
+}
+
+.chat-box {
+  height: 280px;
+  border: 1px solid #d9d9d9;
+  box-shadow: inset 1px 1px 12px 1px #0002;
+  margin-bottom: 1rem;
+}
+
+.player-table {
+  background-color: white;
+  width: 100%;
+}
+
+.player-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+input.honesty {
+  color: #41403e;
+  color: var(--primary);
+  border-color: #41403e;
+  border-color: var(--primary);
+  background: transparent;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-style: solid;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-width: 2px;
+  font-size: 1rem;
+  outline: none;
+  /* padding: 0.5rem; */
+}
